@@ -1,0 +1,33 @@
+@import '../../../assets/css/variables';
+/*add tender*/
+.add-tender-bar{
+    background-color: #fff;
+    padding: 30px 85px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    h3{
+        display: inline-block;
+        font-weight: 700;
+    }
+    .custom-btn{
+        float: left;
+        background-color: #fff;
+        color: $black-color;
+        padding: 6px 15px;
+        border: 1px solid #DEDEDE;
+        &:before {
+            background:$yellow-color;
+          } 
+    }
+}
+.add-tender-block{
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    padding: 20px;
+}
+.form-block{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}

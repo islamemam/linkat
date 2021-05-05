@@ -1,0 +1,78 @@
+<header>
+    <!-- Add Modal -->
+    <div class="modal fade" id="add-btn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">إضافة</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="add-options">
+                        <li>
+                            <a href="#">
+                                <img src="/../../../assets/img/company-icon.jpg" alt="company-icon">
+                                شركتي
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/../../../assets/img/tools-icon.jpg" alt="tools-icon">
+                                مواد البناء
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/../../../assets/img/tender-icon.jpg" alt="tender-icon">
+                                مناقصة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/../../../assets/img/jobs-icon.jpg" alt="jobs-icon">
+                                وظائف
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" routerLink="/"><img src="/../../../assets/img/logo.png" alt="لينكات"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="tenders">المناقصات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="companies">الشركات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="building-equipments">موادالبناء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الوظائف</a>
+                    </li>
+                    <li class="nav-item add">
+                        <a class="nav-link add-btn" data-toggle="modal" data-target="#add-btn">+ أضف</a>
+                    </li>
+                    <li class="nav-item login">
+                        <a class="nav-link login-btn" routerLink="login">تسجيل دخول</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

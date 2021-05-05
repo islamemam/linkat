@@ -1,0 +1,28 @@
+@import '../../../../assets/css/variables';
+.carousel-control-next, .carousel-control-prev{
+    width: auto;
+    bottom: auto;
+    top: 45%;
+    padding: 10px 17px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.carousel-control-prev{
+    right: 30px;
+}
+.carousel-control-next{
+    left: 30px;
+    transform: rotate(180deg);
+}
+.carousel-indicators{
+    bottom: -55px;
+    li{
+        background-color: $gray-color;
+        width: 20px;
+        height: 7px;
+        border-radius: 45%;
+    }
+    .active{
+        background-color: $orange-color;
+    }
+}

@@ -1,0 +1,105 @@
+@import '../../../../assets/css/variables';
+/*add tender*/
+.add-tender-bar{
+    background-color: #fff;
+    padding: 30px 85px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    h3{
+        display: inline-block;
+        font-weight: 700;
+    }
+    .custom-btn{
+        float: left;
+        background-color: #fff;
+        color: $black-color;
+        padding: 6px 15px;
+        border: 1px solid #DEDEDE;
+        &:before {
+            background:$yellow-color;
+          } 
+    }
+}
+.add-tender-block{
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    padding: 20px;
+}
+.form-block{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.tender-title{
+    border-radius: 8px;
+    box-shadow: #e3e3e3 0px 5px 10px;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    h5{
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 30px;
+        span{
+            display: block;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: .8em;
+        }
+    }
+    p{
+      float: left;
+    }
+    .form-inline .form-group{
+        position: relative;
+        width: 100%;
+        .form-control{
+            width: 100%;
+            background-color: #fafafa;
+            height: 50px;
+            border: 1px solid #dedede;
+        }
+    }
+    .custom-btn{
+        position: absolute;
+        color: $black-color;
+        border-radius: 4px;
+        left: 45px;
+        height: 50px;
+    }
+}
+.filter{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    a{
+        color: $black-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 1.1em;
+    }
+    .form-check{
+        margin-bottom: 10px;
+        .form-check-input, .form-check-label{
+            cursor: pointer;
+        }
+        .form-check-label{
+            width: 100%;
+            span{
+                float: left;
+            }
+        }
+    }
+    .custom-btn{
+        display: block;
+        border-radius: 6px;
+        width: 100%;
+        color: $black-color;
+    }
+    .form-control{
+        border: none;
+        background-color: #fafafa;
+        height: 50px;
+    }
+}

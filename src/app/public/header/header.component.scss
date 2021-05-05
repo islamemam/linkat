@@ -1,0 +1,90 @@
+@import '../../../assets/css/variables';
+header{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom:20px;
+    box-shadow: #e3e3e3 0px 5px 10px;
+    margin-bottom: 60px;
+    .navbar-brand{
+        position: absolute;
+        right: 0%;
+        top: -30px;
+    }
+}
+.navbar,.navbar-brand{
+    padding: 0;
+}
+.nav-link{
+    color: $menu-color;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+                  &:before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    left: 51%;
+                    right: 51%;
+                    bottom: 0;
+                    background:$orange-color;
+                    height: 3px;
+                    -webkit-transition-property: left, right;
+                    transition-property: left, right;
+                    -webkit-transition-duration: 0.3s;
+                    transition-duration: 0.3s;
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+                                  }
+    &:hover:before, &:focus:before, &:active:before {
+        left: 0;
+        right: 0;
+                      }
+}
+.add-btn{
+    background-color: $yellow-color;
+    border-radius: 20px;
+    padding: 8px 15px !important;
+    font-weight: 700;
+    border:1px solid $yellow-color;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        border:1px solid #DEDEDE;
+    }
+}
+.login-btn{
+    border-radius: 20px;
+    border:1px solid #DEDEDE;
+    padding: 7px 20px !important;
+    margin-right: 10px;
+    &:hover{
+        background-color: $yellow-color;
+        border:1px solid $yellow-color;
+    }
+}
+.add-options{
+    text-align: center;
+    li{
+        border: 1px solid #EBEBEC;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 15px;
+        &:hover{
+            transition: 0.5s;
+            border: 1px solid $orange-color;
+        }
+        &:last-child{
+            margin-left: 0;
+        }
+        a{
+            color: #707070;
+           img{
+               display: block;
+               margin: auto;
+           } 
+        }
+    }
+}

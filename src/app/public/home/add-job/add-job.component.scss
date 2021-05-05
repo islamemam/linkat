@@ -1,0 +1,24 @@
+@import '../../../../assets/css/variables';
+.addJob-block{
+    background-color: $black-color;
+    padding:50px 70px;
+    border-radius: 6px;
+    h3{
+        color: $yellow-color;
+        display: inline-block;
+        span{
+            color: #fff;
+            display: block;
+            font-size: .8em;
+            margin-top: 10px;
+        }
+    }
+    .custom-btn{
+        color: $black-color;
+        padding: 3px 30px;
+        margin-right: 10px;
+        float: left;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+}
